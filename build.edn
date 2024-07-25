@@ -1,0 +1,15 @@
+{:lib com.xadecimal/testa
+ :version "0.1.0-SNAPSHOT"
+ :description "A small testing utility library that helps you write clojure.test tests for async behavior."
+ :licenses [{:name "MIT License"
+             :url "https://github.com/xadecimal/testa/blob/main/LICENSE"}]
+ :documents [{:file "README.md"
+              :match ":deps \\{com\\.xadecimal\\/testa"
+              :action :replace
+              :keep-indent? true
+              :text "{:deps {com.xadecimal/testa {:mvn/version \"{{version}}\"}}}"}
+             {:file "README.md"
+              :match "\\[com\\.xadecimal\\/testa"
+              :action :replace
+              :keep-indent? true
+              :text "[com.xadecimal/testa \"{{version}}\"]"}]}
