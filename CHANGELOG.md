@@ -15,13 +15,11 @@ Types of changes:
 
 ## [Unreleased]
 
+## [0.1.0] - 2024-07-24
+
 ### Added
 
 - Initial release
-
-## [0.1.0] - 2024-07-24
-
-
 
 [unreleased]: https://github.com/xadecimal/testa/compare/0.1.0...HEAD
 [0.1.0]: https://github.com/xadecimal/testa/tree/0.1.0
