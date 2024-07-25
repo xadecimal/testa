@@ -4,6 +4,8 @@ A small testing utility library that helps you write `clojure.test` tests for as
 
 ## Installation
 
+Remember, this library is meant to be used in your tests, so you probably want to add it into your test dependencies, not as a dependency of your app/lib.
+
 ### Leiningen
 
 Add the following dependency to your `project.clj`:
